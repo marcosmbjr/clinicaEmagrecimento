@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projeto Semi acadado Calculadora Manha SI\\PrjBaseWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A672F11-6AE0-47FF-8818-28A34F785B92}|PrjBaseWeb\\PrjBaseWeb.csproj|d:\\projeto semi acadado calculadora manha si\\prjbaseweb\\prjbaseweb\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2A672F11-6AE0-47FF-8818-28A34F785B92}|PrjBaseWeb\\PrjBaseWeb.csproj|solutionrelative:prjbaseweb\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A672F11-6AE0-47FF-8818-28A34F785B92}|PrjBaseWeb\\PrjBaseWeb.csproj|d:\\projeto semi acadado calculadora manha si\\prjbaseweb\\prjbaseweb\\estilo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2A672F11-6AE0-47FF-8818-28A34F785B92}|PrjBaseWeb\\PrjBaseWeb.csproj|solutionrelative:prjbaseweb\\estilo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A672F11-6AE0-47FF-8818-28A34F785B92}|PrjBaseWeb\\PrjBaseWeb.csproj|d:\\projeto semi acadado calculadora manha si\\prjbaseweb\\prjbaseweb\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A672F11-6AE0-47FF-8818-28A34F785B92}|PrjBaseWeb\\PrjBaseWeb.csproj|solutionrelative:prjbaseweb\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A672F11-6AE0-47FF-8818-28A34F785B92}|PrjBaseWeb\\PrjBaseWeb.csproj|d:\\projeto semi acadado calculadora manha si\\prjbaseweb\\prjbaseweb\\index.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A672F11-6AE0-47FF-8818-28A34F785B92}|PrjBaseWeb\\PrjBaseWeb.csproj|solutionrelative:prjbaseweb\\index.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A672F11-6AE0-47FF-8818-28A34F785B92}|PrjBaseWeb\\PrjBaseWeb.csproj|d:\\projeto semi acadado calculadora manha si\\prjbaseweb\\prjbaseweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2A672F11-6AE0-47FF-8818-28A34F785B92}|PrjBaseWeb\\PrjBaseWeb.csproj|solutionrelative:prjbaseweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "estilo.css",
+              "DocumentMoniker": "D:\\Projeto Semi acadado Calculadora Manha SI\\PrjBaseWeb\\PrjBaseWeb\\estilo.css",
+              "RelativeDocumentMoniker": "PrjBaseWeb\\estilo.css",
+              "ToolTip": "D:\\Projeto Semi acadado Calculadora Manha SI\\PrjBaseWeb\\PrjBaseWeb\\estilo.css",
+              "RelativeToolTip": "PrjBaseWeb\\estilo.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-19T20:59:22.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.aspx.designer.cs",
+              "DocumentMoniker": "D:\\Projeto Semi acadado Calculadora Manha SI\\PrjBaseWeb\\PrjBaseWeb\\index.aspx.designer.cs",
+              "RelativeDocumentMoniker": "PrjBaseWeb\\index.aspx.designer.cs",
+              "ToolTip": "D:\\Projeto Semi acadado Calculadora Manha SI\\PrjBaseWeb\\PrjBaseWeb\\index.aspx.designer.cs",
+              "RelativeToolTip": "PrjBaseWeb\\index.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T20:49:03.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Projeto Semi acadado Calculadora Manha SI\\PrjBaseWeb\\PrjBaseWeb\\Web.config",
+              "RelativeDocumentMoniker": "PrjBaseWeb\\Web.config",
+              "ToolTip": "D:\\Projeto Semi acadado Calculadora Manha SI\\PrjBaseWeb\\PrjBaseWeb\\Web.config",
+              "RelativeToolTip": "PrjBaseWeb\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-19T20:47:36.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.aspx.cs",
+              "DocumentMoniker": "D:\\Projeto Semi acadado Calculadora Manha SI\\PrjBaseWeb\\PrjBaseWeb\\index.aspx.cs",
+              "RelativeDocumentMoniker": "PrjBaseWeb\\index.aspx.cs",
+              "ToolTip": "D:\\Projeto Semi acadado Calculadora Manha SI\\PrjBaseWeb\\PrjBaseWeb\\index.aspx.cs",
+              "RelativeToolTip": "PrjBaseWeb\\index.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T20:47:03.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.aspx",
+              "DocumentMoniker": "D:\\Projeto Semi acadado Calculadora Manha SI\\PrjBaseWeb\\PrjBaseWeb\\index.aspx",
+              "RelativeDocumentMoniker": "PrjBaseWeb\\index.aspx",
+              "ToolTip": "D:\\Projeto Semi acadado Calculadora Manha SI\\PrjBaseWeb\\PrjBaseWeb\\index.aspx",
+              "RelativeToolTip": "PrjBaseWeb\\index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-19T20:45:44.754Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

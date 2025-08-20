@@ -1,0 +1,21 @@
+G:\Rangel\Sistemas WEB 2023\PrjCalculadoraWeb\PrjCalculadoraWeb\bin\PrjCalculadoraWeb.dll.config
+G:\Rangel\Sistemas WEB 2023\PrjCalculadoraWeb\PrjCalculadoraWeb\bin\PrjCalculadoraWeb.dll
+G:\Rangel\Sistemas WEB 2023\PrjCalculadoraWeb\PrjCalculadoraWeb\bin\PrjCalculadoraWeb.pdb
+G:\Rangel\Sistemas WEB 2023\PrjCalculadoraWeb\PrjCalculadoraWeb\obj\Debug\PrjCalculadoraWeb.csproj.AssemblyReference.cache
+G:\Rangel\Sistemas WEB 2023\PrjCalculadoraWeb\PrjCalculadoraWeb\obj\Debug\PrjCalculadoraWeb.csproj.CoreCompileInputs.cache
+G:\Rangel\Sistemas WEB 2023\PrjCalculadoraWeb\PrjCalculadoraWeb\obj\Debug\PrjCalculadoraWeb.dll
+G:\Rangel\Sistemas WEB 2023\PrjCalculadoraWeb\PrjCalculadoraWeb\obj\Debug\PrjCalculadoraWeb.pdb
+C:\Users\unisanta\Downloads\PrjCalculadoraWeb\PrjCalculadoraWeb\bin\PrjCalculadoraWeb.dll.config
+C:\Users\unisanta\Downloads\PrjCalculadoraWeb\PrjCalculadoraWeb\bin\PrjCalculadoraWeb.dll
+C:\Users\unisanta\Downloads\PrjCalculadoraWeb\PrjCalculadoraWeb\bin\PrjCalculadoraWeb.pdb
+C:\Users\unisanta\Downloads\PrjCalculadoraWeb\PrjCalculadoraWeb\obj\Debug\PrjCalculadoraWeb.csproj.AssemblyReference.cache
+C:\Users\unisanta\Downloads\PrjCalculadoraWeb\PrjCalculadoraWeb\obj\Debug\PrjCalculadoraWeb.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\Downloads\PrjCalculadoraWeb\PrjCalculadoraWeb\obj\Debug\PrjCalculadoraWeb.dll
+C:\Users\unisanta\Downloads\PrjCalculadoraWeb\PrjCalculadoraWeb\obj\Debug\PrjCalculadoraWeb.pdb
+D:\Projeto Semi acadado Calculadora Manha SI\PrjCalculadoraWeb\PrjCalculadoraWeb\bin\PrjCalculadoraWeb.dll.config
+D:\Projeto Semi acadado Calculadora Manha SI\PrjCalculadoraWeb\PrjCalculadoraWeb\bin\PrjCalculadoraWeb.dll
+D:\Projeto Semi acadado Calculadora Manha SI\PrjCalculadoraWeb\PrjCalculadoraWeb\bin\PrjCalculadoraWeb.pdb
+D:\Projeto Semi acadado Calculadora Manha SI\PrjCalculadoraWeb\PrjCalculadoraWeb\obj\Debug\PrjCalculadoraWeb.csproj.AssemblyReference.cache
+D:\Projeto Semi acadado Calculadora Manha SI\PrjCalculadoraWeb\PrjCalculadoraWeb\obj\Debug\PrjCalculadoraWeb.csproj.CoreCompileInputs.cache
+D:\Projeto Semi acadado Calculadora Manha SI\PrjCalculadoraWeb\PrjCalculadoraWeb\obj\Debug\PrjCalculadoraWeb.dll
+D:\Projeto Semi acadado Calculadora Manha SI\PrjCalculadoraWeb\PrjCalculadoraWeb\obj\Debug\PrjCalculadoraWeb.pdb

@@ -1,0 +1,7 @@
+D:\Projeto Semi acadado Calculadora Manha SI\PrjBaseWeb\PrjBaseWeb\bin\PrjCalculadoraWeb.dll.config
+D:\Projeto Semi acadado Calculadora Manha SI\PrjBaseWeb\PrjBaseWeb\bin\PrjCalculadoraWeb.dll
+D:\Projeto Semi acadado Calculadora Manha SI\PrjBaseWeb\PrjBaseWeb\bin\PrjCalculadoraWeb.pdb
+D:\Projeto Semi acadado Calculadora Manha SI\PrjBaseWeb\PrjBaseWeb\obj\Debug\PrjBaseWeb.csproj.AssemblyReference.cache
+D:\Projeto Semi acadado Calculadora Manha SI\PrjBaseWeb\PrjBaseWeb\obj\Debug\PrjBaseWeb.csproj.CoreCompileInputs.cache
+D:\Projeto Semi acadado Calculadora Manha SI\PrjBaseWeb\PrjBaseWeb\obj\Debug\PrjCalculadoraWeb.dll
+D:\Projeto Semi acadado Calculadora Manha SI\PrjBaseWeb\PrjBaseWeb\obj\Debug\PrjCalculadoraWeb.pdb
