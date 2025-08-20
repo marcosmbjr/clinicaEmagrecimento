@@ -5,3 +5,10 @@ D:\Projeto Semi acadado Calculadora Manha SI\PrjBaseWeb\PrjBaseWeb\obj\Debug\Prj
 D:\Projeto Semi acadado Calculadora Manha SI\PrjBaseWeb\PrjBaseWeb\obj\Debug\PrjBaseWeb.csproj.CoreCompileInputs.cache
 D:\Projeto Semi acadado Calculadora Manha SI\PrjBaseWeb\PrjBaseWeb\obj\Debug\PrjCalculadoraWeb.dll
 D:\Projeto Semi acadado Calculadora Manha SI\PrjBaseWeb\PrjBaseWeb\obj\Debug\PrjCalculadoraWeb.pdb
+C:\Users\unisanta\Desktop\PrjBaseWeb\PrjBaseWeb\bin\PrjCalculadoraWeb.dll.config
+C:\Users\unisanta\Desktop\PrjBaseWeb\PrjBaseWeb\bin\PrjCalculadoraWeb.dll
+C:\Users\unisanta\Desktop\PrjBaseWeb\PrjBaseWeb\bin\PrjCalculadoraWeb.pdb
+C:\Users\unisanta\Desktop\PrjBaseWeb\PrjBaseWeb\obj\Debug\PrjBaseWeb.csproj.AssemblyReference.cache
+C:\Users\unisanta\Desktop\PrjBaseWeb\PrjBaseWeb\obj\Debug\PrjBaseWeb.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\Desktop\PrjBaseWeb\PrjBaseWeb\obj\Debug\PrjCalculadoraWeb.dll
+C:\Users\unisanta\Desktop\PrjBaseWeb\PrjBaseWeb\obj\Debug\PrjCalculadoraWeb.pdb
