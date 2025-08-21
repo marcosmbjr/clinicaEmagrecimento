@@ -60,7 +60,7 @@
 
                     </td>
                     <td style="text-align: center">
-                        <asp:TextBox ID="txDataNascimento" runat="server" Width="300px" />
+                        <asp:TextBox ID="txDataNascimento" runat="server" Width="300px"  />
                     </td>
 
                 </tr>
@@ -137,11 +137,22 @@
                 <tr>
                     <td>&nbsp;  </td>
                 </tr>
-<%--                <tr>
+                <tr>
                     <td colspan="4">
-                        <table></table>
+                        <table style="width: 100%"> 
+                            <td>&nbsp; </td>
+
+                                <td >
+                                    <asp:Button class="button-basic" ID="btOk" runat="server" Text="OK" Width="200px" OnClick="Calcula" />
+                                </td>
+
+                                
+                                <td>
+                                    <asp:Button class="button-basic" ID="btLimpar" runat="server" Text="Limpar" Width="200px" OnClick="btLimpar_Click" />
+                                </td>
+                        </table>
                     </td>
-                </tr>--%>
+                </tr>
             </table>
         </div>
     </form>
