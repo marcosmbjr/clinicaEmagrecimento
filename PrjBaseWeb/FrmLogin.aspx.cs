@@ -49,6 +49,7 @@ namespace PrjCalculadoraWeb
             {
                 if (u.Verifica(TxLogin.Text, TxSenha.Text))
                 {
+                    Session["usuario"] = u;
                     Response.Redirect("index.aspx", true);
 
                     return;

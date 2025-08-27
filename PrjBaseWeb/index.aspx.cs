@@ -13,6 +13,12 @@ namespace PrjBaseWeb
         protected void Page_Load(object sender, EventArgs e)
         {
             Usuario u = (Usuario)Session["usuario"];
+
+            if (u == null)
+            {
+                Response.Redirect("FrmLogin.aspx", true);
+                return;
+            }
         }
 
         protected void btLimpar_Click(object sender, EventArgs e)
