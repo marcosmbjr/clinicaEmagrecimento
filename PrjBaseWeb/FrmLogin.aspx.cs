@@ -13,5 +13,10 @@ namespace PrjCalculadoraWeb
         {
 
         }
+
+        protected void btOk_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
