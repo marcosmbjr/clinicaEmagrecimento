@@ -55,6 +55,20 @@ namespace PrjBaseWeb
                 txResultado.Text = "Idade deve ser entre 15 e 100 anos!";
                 return;
             }
+
+            if (!float.TryParse(txPeso.Text, out float peso))
+            {
+                txResultado.Text = "O valor precisa ser numérico";
+                return;
+            }
+
+
+            if (float.Parse(txPeso.Text) < 30 || float.Parse(txPeso.Text) > 350)
+            {
+                txResultado.Text = "O peso precisa estar entre 30kg e 350kg";
+                return;
+            }
+
             if (!float.TryParse(txAltura.Text, out float altura))
             {
                 txResultado.Text = "Altura tem que ser numero e não pode estar vazia";
