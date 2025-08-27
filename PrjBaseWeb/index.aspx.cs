@@ -12,7 +12,7 @@ namespace PrjBaseWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+            Usuario u = (Usuario)Session["usuario"];
         }
 
         protected void btLimpar_Click(object sender, EventArgs e)
