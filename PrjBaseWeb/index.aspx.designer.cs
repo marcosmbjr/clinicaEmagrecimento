@@ -33,6 +33,33 @@ namespace PrjBaseWeb
         protected global::System.Web.UI.WebControls.TextBox TxNome;
 
         /// <summary>
+        /// lbBusca control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbBusca;
+
+        /// <summary>
+        /// txBusca control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txBusca;
+
+        /// <summary>
+        /// btOkBusca control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btOkBusca;
+
+        /// <summary>
         /// lbCpf control.
         /// </summary>
         /// <remarks>

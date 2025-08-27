@@ -8,6 +8,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Clinica de Emagrecimento</title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 99px;
+        }
+    </style>
 </head>
 <body>
     <link href="estilo.css" rel="stylesheet " />
@@ -33,6 +38,21 @@
                     </td>
                     <td style="text-align: center">
                         <asp:TextBox ID="TxNome" runat="server" Width="300px" />
+                    </td>
+                    <td>
+                        <table style="text-align:right; width:300px">
+                            <tr>
+                                <td class="auto-style1">
+                                    <asp:Label ID="lbBusca" runat="server" Text="Busca"/>
+                                </td>
+                                <td>
+                                    <asp:TextBox ID="txBusca" runat="server" style="width:30px" />
+                                </td>
+                                <td>
+                                    <asp:Button ID="btOkBusca" runat="server" Text="Ok" OnClick="btOkBusca_Click" />
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
                 <tr>

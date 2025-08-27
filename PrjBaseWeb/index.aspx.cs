@@ -8,8 +8,12 @@ using PrjCalculadoraWeb.Classes;
 
 namespace PrjBaseWeb
 {
+
+   
     public partial class index : System.Web.UI.Page
     {
+        private static List<Paciente> pacientes = new List<Paciente>();
+
         protected void Page_Load(object sender, EventArgs e)
         {
             Usuario u = (Usuario)Session["usuario"];
@@ -103,11 +107,37 @@ namespace PrjBaseWeb
                 Paciente p = new Paciente(
                     TxNome.Text, txCpf.Text, sexo, date, float.Parse(txPeso.Text), float.Parse(txAltura.Text));
                 txResultado.Text = p.imc.Diagnostico();
+
+                foreach(Paciente paciente in pacientes)
+                {
+                    if (txCpf.Text.Equals(paciente.Cpf))
+                    {
+                        txResultado.Text = "Paciente já cadastrado";
+                        return;
+                    }
+                }
+                pacientes.Add(p);
             }
+
+            
+
+
             catch (Exception ex)
             {
                 txResultado.Text = "Ocorreu um erro: " + ex.Message;
             }
+        }
+
+        protected void btOkBusca_Click(object sender, EventArgs e)
+        {
+            foreach(Paciente p in pacientes)
+            {
+                if (p.Registro.Equals(txBusca.Text))
+                {
+
+                }
+            }
+            txResultado.Text = "Paciente não cadastrado";
         }
     }
 }
