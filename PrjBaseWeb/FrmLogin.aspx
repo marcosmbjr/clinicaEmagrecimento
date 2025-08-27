@@ -40,7 +40,7 @@
 
                   <tr>
                     <td colspan="2" style="text-align:center:">
-                        <asp:Button ID="btOk" runat="server" Text="Ok" style="width:90%"/>
+                        <asp:Button ID="btOk" runat="server" Text="Ok" style="width:90%" OnClick="btOk_Click"/>
                     </td>
                     <td>
 
