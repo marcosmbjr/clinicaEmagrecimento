@@ -23,6 +23,11 @@ namespace PrjBaseWeb
                 Response.Redirect("FrmLogin.aspx", true);
                 return;
             }
+
+            if (!IsPostBack)
+            {
+                btExcluir.Enabled = pacientes.Count > 0;
+            }
         }
 
         protected void btLimpar_Click(object sender, EventArgs e)
@@ -33,24 +38,24 @@ namespace PrjBaseWeb
                 txDataNascimento.Text =
                 txPeso.Text =
                 txResultado.Text = String.Empty;
-                rbFem.Checked =
-                rbMasc.Checked =
-                rbNra.Checked = false;
 
-
-
+            rbFem.Checked =
+            rbMasc.Checked =
+            rbNra.Checked = false;
 
             txCpf.ReadOnly = false;
             txDataNascimento.ReadOnly = false;
             TxNome.ReadOnly = false;
 
+            // Aqui está o ajuste:
             rbFem.Enabled =
             rbMasc.Enabled =
-            rbNra.Enabled = false;
+            rbNra.Enabled = true;
 
             Session["paciente"] = null;
 
-
+            // Atualiza botão excluir com base na lista
+            btExcluir.Enabled = pacientes.Count > 0;
         }
 
         protected void Calcula(object sender, EventArgs e)
@@ -141,9 +146,11 @@ namespace PrjBaseWeb
                     }
                 }
                 pacientes.Add(p);
+                btExcluir.Enabled = true;
             }
+          
 
-            
+
 
 
             catch (Exception ex)
@@ -189,5 +196,33 @@ namespace PrjBaseWeb
             }
             txResultado.Text = "Paciente não cadastrado";
         }
+
+        protected void txBusca_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btExcluir_Click(object sender, EventArgs e)
+        {
+            if (Session["paciente"] != null)
+            {
+                Paciente paciente = (Paciente)Session["paciente"];
+
+                // Remove da lista
+                pacientes.RemoveAll(p => p.Cpf == paciente.Cpf);
+
+                // Limpa os campos
+                btLimpar_Click(sender, e);
+
+                // Remove da session
+                Session["paciente"] = null;
+
+                txResultado.Text = "Paciente excluído com sucesso!";
+            }
+
+            // Desativa botão se não tiver mais pacientes
+            btExcluir.Enabled = pacientes.Count > 0;
+        }
+    
     }
 }

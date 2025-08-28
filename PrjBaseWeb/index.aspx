@@ -46,10 +46,13 @@
                                     <asp:Label ID="lbBusca" runat="server" Text="Busca"/>
                                 </td>
                                 <td>
-                                    <asp:TextBox ID="txBusca" runat="server" style="width:30px" />
+                                    <asp:TextBox ID="txBusca" runat="server" />
                                 </td>
                                 <td>
                                     <asp:Button ID="btOkBusca" runat="server" Text="Ok" OnClick="btOkBusca_Click" />
+                                </td>
+                                <td>
+                                    <asp:Button ID="btExcluir" runat="server" Text="Excluir" OnClick="btExcluir_Click"/>
                                 </td>
                             </tr>
                         </table>
