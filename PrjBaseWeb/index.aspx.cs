@@ -33,9 +33,22 @@ namespace PrjBaseWeb
                 txDataNascimento.Text =
                 txPeso.Text =
                 txResultado.Text = String.Empty;
-            rbFem.Checked =
+                rbFem.Checked =
                 rbMasc.Checked =
                 rbNra.Checked = false;
+
+
+
+
+            txCpf.ReadOnly = false;
+            txDataNascimento.ReadOnly = false;
+            TxNome.ReadOnly = false;
+
+            rbFem.Enabled =
+            rbMasc.Enabled =
+            rbNra.Enabled = false;
+
+            Session["paciente"] = null;
 
 
         }
@@ -91,6 +104,17 @@ namespace PrjBaseWeb
                 txResultado.Text = "A Altura tem que ser entre 1,10 metros e 2,20 metros";
                 return;
             }
+
+            if (Session["paciente"] != null)
+            {
+                Paciente paciente = (Paciente)Session["paciente"];
+                paciente.Atualiza(peso, altura);
+                //txResultado.Text = "Paciente atualizado";
+                Mostrar(paciente);
+                return;
+            }
+
+
             if (!rbFem.Checked && !rbMasc.Checked && !rbNra.Checked)
             {
                 txResultado.Text = "Tem que selecionar o Sexo";
@@ -100,13 +124,13 @@ namespace PrjBaseWeb
             char sexo = ' ' ;
             if (rbFem.Checked) sexo = 'f';
             if (rbMasc.Checked) sexo = 'm';
-            if (rbNra.Checked) sexo = 'e';
+            if (rbNra.Checked) sexo = '*';
 
             try
             {
                 Paciente p = new Paciente(
                     TxNome.Text, txCpf.Text, sexo, date, float.Parse(txPeso.Text), float.Parse(txAltura.Text));
-                txResultado.Text = p.imc.Diagnostico();
+                txResultado.Text = p.Diagnostico();
 
                 foreach(Paciente paciente in pacientes)
                 {
@@ -128,12 +152,38 @@ namespace PrjBaseWeb
             }
         }
 
+        private  void Mostrar(Paciente p)
+        {
+            txAltura.Text = p.Altura().ToString();
+            txCpf.Text = p.Cpf;
+            TxNome.Text = p.Nome.ToString();
+            txDataNascimento.Text = p.DtNascimento.ToString("dd/MM/yyyy");
+            txPeso.Text = p.Peso().ToString();
+
+            txResultado.Text = p.Diagnostico();
+
+            rbFem.Checked = p.Sexo == 'f';
+            rbMasc.Checked = p.Sexo == 'm';
+            rbNra.Checked = p.Sexo == '*';
+        }
+
         protected void btOkBusca_Click(object sender, EventArgs e)
         {
             foreach(Paciente p in pacientes)
             {
                 if (p.Registro.Equals(txBusca.Text))
                 {
+                    txCpf.ReadOnly = true; 
+                    txDataNascimento.ReadOnly = true;
+                    TxNome.ReadOnly = true;
+                    rbFem.Enabled =
+                    rbMasc.Enabled =
+                    rbNra.Enabled = false;
+
+                    Session["paciente"] = p;
+
+                    Mostrar(p);
+                    return;
 
                 }
             }

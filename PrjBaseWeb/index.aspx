@@ -40,7 +40,7 @@
                         <asp:TextBox ID="TxNome" runat="server" Width="300px" />
                     </td>
                     <td>
-                        <table style="text-align:right; width:300px">
+                        <table style="text-align:right; width:100px">
                             <tr>
                                 <td class="auto-style1">
                                     <asp:Label ID="lbBusca" runat="server" Text="Busca"/>

@@ -7,7 +7,7 @@ namespace PrjCalculadoraWeb.Classes
 {
     public class Paciente : Pessoa
     {
-        public IMC imc;
+        private IMC imc;
         public string Registro { get; private set; }
 
         private static int contId = 0;
@@ -21,6 +21,26 @@ namespace PrjCalculadoraWeb.Classes
         {
             imc = new IMC(peso , altura);
             Registro = (++contId).ToString();
+        }
+
+        public void Atualiza(float peso, float altura)
+        {
+            imc = new IMC(peso, altura);
+        }
+
+        public float Altura()
+        {
+            return imc.Altura;
+        }
+
+        public float Peso()
+        {
+            return imc.Peso;
+        }
+
+        public String Diagnostico()
+        {
+            return imc.Diagnostico();
         }
     }
 }
